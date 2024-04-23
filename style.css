@@ -318,7 +318,7 @@ margin-left: 250px;
 
 .product-miras-valo{
 
-background-color:#FFAE5C;
+background-color:#c9c9c9;
 border-radius: 5px;
 box-shadow: 2px 1px 1px rgba(121, 121, 121, 0.3);
 cursor: pointer;
@@ -647,7 +647,7 @@ form{
     
     .product-miras-valo{
     
-    background-color:#FFAE5C;
+    background-color:#c9c9c9;
     border-radius: 5px;
     box-shadow: 2px 1px 1px rgba(121, 121, 121, 0.3);
     cursor: pointer;
@@ -802,7 +802,7 @@ form{
         top: 100%;
         left: 0;
         right: 0;
-        background-color: #FD8757;
+        background-color: #cccccc;
         display: none;
     }
    
@@ -877,7 +877,7 @@ form{
         border-radius: 5px;
         box-shadow: 2px 1px 1px rgba(121, 121, 121, 0.3);
         cursor: pointer;
-        margin-left: 20px;
+        margin-left: 10px;
         max-width: 190px;   
     
 
@@ -896,11 +896,11 @@ form{
     
     .product-miras-valo {
    
-        background-color:#FFAE5C;
+        background-color:#c9c9c9;
         border-radius: 5px;
         box-shadow: 2px 1px 1px rgba(121, 121, 121, 0.3);
         cursor: pointer;
-        margin-left: 20px;
+        margin-left: 3px;
         max-width: 190px;   
     
 
