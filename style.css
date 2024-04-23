@@ -45,7 +45,7 @@ margin-left: 250px;
    margin-bottom: 40px;
 }
 .header{
-    background-image: url(/img/VALORANT-WALLPAPER.png);
+    background-image: url(./img/VALORANT-WALLPAPER.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -413,7 +413,7 @@ max-width: 190px;
    .miras{
     max-width: 100%;
     display: flex;
-    background-image: url(/img/background-crosshair.png);
+    background-image: url(./img/background-crosshair.png);
     width: 160px;
     margin: 0px 5px 0px 15px;
     margin-top: 10px;
@@ -567,7 +567,7 @@ form{
     justify-content: space-between;
     align-items: center;
     padding: 40px 0;
-    background-image: url(img/CSWALLPAPER.jpeg);
+    background-image: url(./img/CSWALLPAPER.jpeg);
     
 }
 
@@ -647,7 +647,7 @@ form{
     
     .product-miras-valo{
     
-    background-color:#FD8757(102, 81, 197);
+    background-color:#FFAE5C;
     border-radius: 5px;
     box-shadow: 2px 1px 1px rgba(121, 121, 121, 0.3);
     cursor: pointer;
@@ -896,7 +896,7 @@ form{
     
     .product-miras-valo {
    
-        background-color:#FD8757;
+        background-color:#FFAE5C;
         border-radius: 5px;
         box-shadow: 2px 1px 1px rgba(121, 121, 121, 0.3);
         cursor: pointer;
