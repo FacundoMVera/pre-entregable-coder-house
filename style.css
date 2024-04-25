@@ -102,9 +102,7 @@ margin-left: 250px;
     display: none;
 }
 
-.menu-cono {
-    width: 25px;
-}
+
 
 .menu label {
     cursor: pointer;
@@ -596,6 +594,12 @@ form{
 
     /* para tablet */
 @media (min-width: 769px) and (max-width: 1024px) {
+    .video{
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        padding: 40px;
+    }
 
     .header{
         min-height: 10vh;
@@ -614,6 +618,13 @@ form{
         font-size: 30px;
         margin-bottom: 90px;
     }
+
+    .titulo-gamesense, .titulo-mejorar-aim, .texto-explicativo{
+        font-size: 30px;
+        
+    }
+
+
     h2{
         font-size:15px;
         display: flex;
@@ -703,12 +714,14 @@ form{
 
 
 
-
-
-
-
 /* probando */
 @media (min-width: 1025px) and (max-width: 1500px) {
+
+
+    .titulo-gamesense, .titulo-mejorar-aim, .titulo-strafe{
+        font-size: 30px;
+        
+    }
 
     .header{
         min-height: 10vh;
@@ -806,13 +819,16 @@ form{
         display: none;
     }
    
-        
+        .video{
+            max-width: 100%;
+            width: 100%;
+        }
+
 
     
-    
 .menu-icono{
-    display: block;
-    width: 50px;
+   
+    width: 5%;
     height: auto;
     
 }
