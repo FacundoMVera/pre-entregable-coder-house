@@ -329,10 +329,10 @@ margin-left: 250px;
     
     .product-content{
         display: grid;
-        grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 3;
-        gap: 10px;
-        margin: 30px ;  
+        grid-template-columns: repeat(auto-fit, minmax(4, 1fr));
+        grid-template-columns: 3;
+        gap: 10px; 
+        justify-content: center; 
         
 
     }
@@ -676,6 +676,7 @@ background-color: #FD8757;
         grid-template-rows: 6;
         gap: 10px;
         margin: 30px ;  
+        justify-content: center;
     }
         
     .product-1 {
@@ -722,7 +723,8 @@ background-color: #FD8757;
     }
    
     .menu{
-        padding: 20px;
+        padding: 10px;
+        
     }
     .menu{
         label{
@@ -744,8 +746,6 @@ background-color: #FD8757;
         max-width: 100%;
         width: 100%;
     }
-
-
 
 .menu-icono{
 
@@ -817,6 +817,7 @@ height: auto;
     grid-template-rows: 6;
     gap: 10px;
     margin: 5px ;  
+    justify-content: center;
     
 
 }
