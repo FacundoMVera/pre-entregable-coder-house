@@ -1,3 +1,9 @@
+@import "html/players";
+
+
+
+
+
 *{  
     margin:0;
     padding:0;
@@ -5,6 +11,12 @@
     list-style:none;
     text-decoration:none;
 }
+ a {
+    text-decoration: none ; 
+    
+}
+           
+       
 body{
     font-family:"Poppins", sans-serif;
     background-color:#D7DCE2;
@@ -38,9 +50,10 @@ margin-left: 250px;
     background-size: cover;
     display: flex;
     align-items: center;
-    min-height: 100vh;
-    padding: 80px 0;
+    min-height: 10vh;
+    padding: 100px 0;
 }
+
 .menu{
     position:absolute;
     top:0;
@@ -49,6 +62,7 @@ margin-left: 250px;
     display:flex;
     align-items:center;
     justify-content:space-between;   
+    
 }
 .cslogo-cursor{
     cursor:pointer;
@@ -60,7 +74,7 @@ margin-left: 250px;
                 position: relative;
                 float: left;
                 a{
-                    font-size: 20px;
+                    font-size: 15px;
                     padding: 30px ;
                     color: rgb(255, 255, 255);
                     border: #000000;
@@ -91,7 +105,7 @@ margin-left: 250px;
 }
 .header-txt{
     h1{
-        font-size: 60px;
+        font-size: 45px;
         color: #000000;
         line-height: 1.3;
         margin-bottom: 25px;
@@ -114,6 +128,7 @@ margin-left: 250px;
     
 
 }
+
 .video{
     width: 50%;
     position: relative;
@@ -134,42 +149,11 @@ margin-left: 250px;
     left: 0;
 }
 
-
-
-
-.btn-1, .btn-2, .btn-3 {
-    color: black; 
-    text-decoration: none; 
-    transition: color 0.3s ease; 
-}
     
-.btn-1{
-    display: inline-block;
-    padding: 11px 35px;
-    border: 2px solid #FD8757;
-    border-radius: 25px;
-    margin-right: 25px;
-    font-size:17px;
-    color: whitesmoke;
-    background-color:#FD8757;
-    
-}
-
-
-.btn-1:hover{
-    background-color:#FFAE5C;
-}
-
-
-
-
-
-
-
-
 .popular{
-    padding: 100px 0;
+    padding: 20px 0;
     text-align: center;
+    
 }
 
 .popular-content{
@@ -177,11 +161,7 @@ margin-left: 250px;
     justify-content: space-between;
     margin: 50px;
 }
-.popular-content{
-    img{
-        width: 350px;
-    }
-}
+
 .product-content{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -194,6 +174,7 @@ margin-left: 250px;
     
     
 }
+
 
 
 
@@ -269,7 +250,10 @@ margin-left: 250px;
     grid-template-rows: 4;
     gap: 30px;
     margin: 30px ;  
-}         
+}   
+
+
+
 .product-miras-valo{
 
     background-color:#c9c9c9;
@@ -296,19 +280,28 @@ margin-left: 250px;
     
     }
     .imagen1-guia, .imagen2-guia, .imagen3-guia{
-        max-width: 100%; 
-        width: 100%;
-        height: 100%; 
-        display: block; 
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        max-width: 100%;
+        img{
+            max-width: 100%;
+            width: 100%;
+            justify-content: center; 
+            
+        }
+
+        
         
     }
+    
     .contenedor{
         position: relative; 
     }
     .valo-logo{
         max-width: 100%;
         position: absolute; 
-        top: 170px; 
+        top: 180px; 
         left: 60px; 
        width: 35px;
        height: auto;
@@ -343,8 +336,19 @@ margin-left: 250px;
         border-radius: 5px;
         box-shadow: 2px 1px 1px rgba(121, 121, 121, 0.3);
         cursor: pointer;
-        margin-left: 20px;
-        max-width: 190px;  
+        
+        max-width: 200px;  
+       display: grid;
+       justify-content: center;
+       p{
+        display: grid;
+        justify-content: center;
+       }
+       h3{
+        display: grid;
+        justify-content: center;
+       }
+        
         
        
            
@@ -362,7 +366,7 @@ background-color: #FD8757;
     .cs-2{
         max-width: 100%;
         position: absolute; 
-        top: 170px; 
+        top: 180px; 
         left:80px; 
         width: 35px; 
         height: auto; 
@@ -377,6 +381,15 @@ background-color: #FD8757;
     .top-jugadores{
         margin-bottom: 60px;
     }
+    .btn-2{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        color: #000000;
+        font-size: 20px;
+       
+    }
+   
     .miras{
         max-width: 100%;
         display: flex;
@@ -388,7 +401,7 @@ background-color: #FD8757;
        }
        .jugadores{
         max-width: 100%;
-        display: flex;
+        display: grid;
         border-radius: 100%;
         background-color:rgb(238, 237, 237);
         width: 180px;
@@ -396,19 +409,23 @@ background-color: #FD8757;
         margin-top: 10px;
         margin-left: 5px;
         max-width: 200px;
+        justify-content: center;
         
     }
     
     .product-txt {
-        padding: 5px 5px;
+        padding: 10px;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     h2{
         color: rgb(0, 0, 0);
         text-align: center; 
         max-width: 80%; 
         margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
         
     }
     h2{
@@ -417,11 +434,25 @@ background-color: #FD8757;
         }
     }    
     h3{
-        text-align: center;
-        max-width: 80%; 
+        text-align: left;
+        max-width: 100%; 
+        width: 67%;
         margin: 0 auto;
         font-size: 20px;
         color: black;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    
+    }
+    h4{
+        text-align: left;
+        max-width: 100%; 
+        width: 67%;
+        margin: 0 auto;
+        font-size: 15px;
+        color: black;
+        margin-top: 40px;
+        margin-bottom: 40px;
         
     
     }
@@ -429,29 +460,17 @@ background-color: #FD8757;
         margin-top: 200px;
        
     }
-    .texto-explicativo{
-        font-size: 17px;
-        width: 40%; 
-    
-     
-        margin-top: 40px;
+   
+        
      
       
      
         
-    }
     
-    .btn-2 {   
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
     
-    .btn-2:hover{
-        color: #FD8757; 
-        cursor: pointer; 
-       
-    }
+   
+    
+
     .contact{
         padding: 150px 300px;
     }
@@ -476,34 +495,22 @@ background-color: #FD8757;
     
     
     
-    form{
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-    }
-    ::placeholder{
-        color: #ffffff;
-        font-size: 17px;
-    }
-    .btn-3{
-        background-color: #FD8757;
-        cursor: pointer;
-        margin-right: 0;
-        width: 100px;
-        font-size: 18px;
+   
+  
+    
        
     
-    }
-    .btn-3:hover{
-        color: #FD8757;
-    }
+    
+   
     
     .footer{
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 40px 0;
-        background-image: url(../img/CSWALLPAPER.jpeg);
+        background-image: url(../img/gd.png);
+        background-repeat: no-repeat;
+        background-size: cover;
         
     }
     
@@ -536,16 +543,84 @@ background-color: #FD8757;
             }
         }
     }
-.footer{
-    div{
+    .footer {
         img{
-            display: flex;
+            max-width: 100%;
+            object-fit: cover;
             width: 100px;
-            margin-bottom: 40px;
+            height: auto;
         }
+        
+        margin-top: 30px;
+        padding: 50px 0;
+        display: grid;
+        justify-content: center;
+        text-align: center;
     }
-}
+    
+    .footer h4 {
+        color: #fff;
+        font-size: 18px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .footer p {
+        font-size: 14px;
+        color: #ccc;
+    }
+    
+    .footer ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .footer ul li {
+        margin-bottom: 10px;
+    }
+    
+    .social-icons li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    
+    .social-icons li a {
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    .social-icons li a:hover {
+        color: #007bff;
+    }
+    
+    .footer ul li i {
+        margin-right: 10px;
+    }
+    
+    .footer-columns {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    
+    .footer-column {
+        padding: 0 15px;
+    }
+    
+    
+   
 @media (min-width: 769px) and (max-width: 1024px) {
+    .navbar {
+        position: absolute; 
+         
+        transform: translateY(-5%);
+       
+    }
+        
+   
+    
     .video{
         max-width: 100%;
         width: 100%;
@@ -563,8 +638,19 @@ background-color: #FD8757;
         
         
     }
+    .como-disparar, .mejorar-aim, .counter-stafe{
+        width: 80%;
+        height: 80%;
+        margin-left:85px;
+        top: 0;
+        left: 0;
+    }
 
     .header-txt{
+        a{
+            display: grid;
+            justify-content: center;
+        }
         h1{
             font-size: 30px;
             margin-bottom: 90px;
@@ -575,26 +661,32 @@ background-color: #FD8757;
         
     }
     h2{
-        font-size:15px;
+        font-size:25px;
         display: flex;
-        text-align: center;
         justify-content: center;
+        
+
+        
         
     }
     h3{
-        font-size:15px;
+        font-size: 25px;
         display: flex;
-        text-align: center;
-        justify-content: center;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        text-align: left;
+    }
+    h4{
+        font-size: 15px;
+        display: flex;
+        
+        
         
     }
 
   
 
     .slider-box{
-        width: 100%;
+        width: 80%;
+        position: relative;
     }
     .crosshair-content{
         display: grid;
@@ -620,18 +712,120 @@ background-color: #FD8757;
         gap: 30px;
         margin: 30px ;  
     }
+    .product-1 {
+   
+        background-color:white;
+        border-radius: 5px;
+        box-shadow: 2px 1px 1px rgba(121, 121, 121, 0.3);
+        cursor: pointer;
+        margin-left: 20px;
+        max-width: 190px; 
+        display: grid;
+        justify-content: center;
+        p{
+            display: grid;
+            justify-content: center;
+        }
+    }
+    .menu{
+        label{
+            display: initial;
+        }
+    }
+    .menu{
+        .navbar{
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.8);
+            box-sizing: border-box;
+            z-index: 1000;
+            transition:  1.3s ease;
+            display: none;
+            transform: translateY(-5%);
+            
+
+        }
+    }
+ 
     
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    .menu{
+        .navbar{
+            ul{
+                li{
+                    a{
+                        :hover{
+                            color:#fc6e36 ;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .menu{
+        .navbar{
+            ul{
+                li{
+                    width: 80%;
+                }
+            }
+        }
+    }
+    .menu-icono{
+
+        width: 1px;
+        height: auto;
     
 
     
-       
-  
+}
+.mapas{
+    img{
+        max-width: 100%;
+        width: 80%;
+    }
+}
 
-
-
-
+.mapascs2{
+    img{
+        max-width: 100%;
+        width: 80%;
+    }
+}
+}
+.imagen1-guia, .imagen2-guia, .imagen3-guia{
+    img{
+        max-width: 100%;
+        width: 80%;
+    }
+    .btn-2{
+        display: grid;
+        justify-content: center;
+    }
 }
 @media (min-width: 1025px) and (max-width: 1500px) {
+    .slider-box{
+        width: 80%;
+        
+   
+    }
+    .header-txt{
+        display: flex;
+        
+        
+        h1{
+            font-size: 25px;
+            
+            
+          
+            
+    }
+}
 
 
     .titulo-gamesense, .titulo-mejorar-aim, .titulo-strafe{
@@ -653,23 +847,40 @@ background-color: #FD8757;
         
     }
     .header-txt{
+       
         h1{
             flex-basis: 100%;
             margin: 10px;
         }
+     
     }
     h2{
-        font-size:15px;
+        font-size:25px;
         display: flex;
-        text-align: center;
         justify-content: center;
         
+
+        
+        
+    }
+    h3{
+        font-size: 25px;
+        display: flex;
+        text-align: left;
+    }
+    h4{
+        font-size: 15px;
+        display: flex;
+        
+        
+        
+    }
+    p{
+        font-size: 14px;
     }
 
-    .slider-box{
-        width: 100%;
+    
    
-    }
     .product-content{
         display: grid;
         grid-template-columns: repeat(4,1fr);
@@ -687,6 +898,12 @@ background-color: #FD8757;
         cursor: pointer;
         margin-left: 20px;
         max-width: 190px; 
+        display: grid;
+        justify-content: center;
+        p{
+            display: grid;
+            justify-content: center;
+        }
        
 
 
@@ -710,15 +927,36 @@ background-color: #FD8757;
     max-width: 190px; 
 }
 
+.mapas{
+    img{
+        max-width: 100%;
+        width: 80%;
+    }
+}
 
-
-
+.mapascs2{
+    img{
+        max-width: 100%;
+        width: 80%;
+    }
+}
 
 }
 @media (max-width:768px){
+    
+       
+    
+    .menu{
+        label{
+            display: initial;
+        }
+    }
+
+  
 
     .slider-box{
-        width: 100%;
+        width: 80%;
+        
    
     }
    
@@ -726,19 +964,20 @@ background-color: #FD8757;
         padding: 10px;
         
     }
-    .menu{
-        label{
-            display: initial;
-        }
-    }
+    
     .menu{
         .navbar{
             position: absolute;
             top: 100%;
             left: 0;
             right: 0;
-            background-color: #cccccc;
+            background-color: rgba(0, 0, 0, 0.8);
+            box-sizing: border-box;
+            z-index: 1000;
+            transition:  1.3s ease;
             display: none;
+            transform: translateY(-16%);
+            
 
         }
     }
@@ -749,7 +988,7 @@ background-color: #FD8757;
 
 .menu-icono{
 
-width: 5%;
+width: 1px;
 height: auto;
 
 }
@@ -769,6 +1008,7 @@ height: auto;
 
 .menu{
     .navbar{
+        
         ul{
             li{
                 width: 60%;
@@ -776,13 +1016,14 @@ height: auto;
         }
     }
 }
-
 #menu:checked ~ .navbar{
     display: initial;
 }
+
+
 .header{
     min-height: 10vh;
-    padding: 80px 30px 50px 30px;
+    padding: 40px 30px 50px 30px;
 }
 
 .header-txt{
@@ -794,17 +1035,12 @@ height: auto;
 }
 .header-txt{
     h1{
-        font-size: 30px;
-        margin-bottom: 90px;
+        margin-top: 50px;
+        font-size: 15px;
+        
     }
 }
-.butons{
-    justify-content: center;
 
-}
-.btn-1:last-of-type{
-    margin-right: 0;
-}
 
 
 .product {
@@ -819,6 +1055,7 @@ height: auto;
     margin: 5px ;  
     justify-content: center;
     
+    
 
 }
 
@@ -830,6 +1067,12 @@ height: auto;
     cursor: pointer;
     margin-left: 10px;
     max-width: 190px;   
+    display: grid;
+    justify-content: center;
+    p{
+        display: grid;
+        justify-content: center;
+    }
 
 
     
@@ -859,75 +1102,169 @@ height: auto;
     
 }
 
-.jugadores{
-margin-left: 5px;
-max-width: 200px;
-}
-h2{
-font-size:15px;
-display: flex;
-text-align: center;
-justify-content: center;
+.jugadores {
+    
+    max-width:100% ;
+    width: 140px;
 
+  }
+ 
+  .cs-2 {
+    max-width: 100%;
+    position: absolute;
+    top: 140px;
+    left: 60px;
+    width: 35px;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+    z-index: 1;
+  }
+
+  .valo-logo {
+    max-width: 100%;
+    position: absolute;
+    top: 140px;
+    left: 50px;
+    width: 35px;
+    height: auto;
+    background-color: red;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+    z-index: 2;
+    border: 2px solid white;
+  }
+  h2{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    
+
+    
+    
 }
 h3{
-font-size:15px;
-display: flex;
-text-align: center;
-justify-content: center;
-margin-top: 10px;
-margin-bottom: 10px;
-
+    font-size: 10px;
+    display: flex;
+    text-align: left;
 }
-.titulo-gamesense{
+h4{
+    font-size: 10px;
+    display: flex;
+    
+    
+    
+}
+
+.titulo-gamesense ,.titulo-mejorar-aim, .titulo-strafe{
 font-size: 20px;
 }
-.texto-explicativo{
-font-size: 17px;
-width: 100%; 
-
-
-margin-top: 20px;
 
 
 
-
+.como-disparar, .mejorar-aim, .counter-stafe{
+    width: 80%;
+    height: 80%;
+    margin-left:35px;
+    top: 0;
+    left: 0;
 }
+
+
+
+p{
+    font-size: 10px;
+}
+
 .imagen1-guia, .imagen2-guia, .imagen3-guia{
-display: flex;
-align-content: center;
-max-width: 100%;
-width: 100%;
-height:auto; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
 
 
 }
+
 
 .product-txt {
 padding: 5px 5px;
 display: flex;
 justify-content: center;
 }
+.contenedor-icono-menu{
+    width: 40px;
+    
+}
+.miras{
+    max-width: 100%;
+    display: flex;
+    background-image: url(../img/background-crosshair.png);
+    width: 80%;
+    margin: 0px 5px 0px 15px;
+    margin-top: 10px;
 
+   }
 
 
 .contact{
     padding: 40px;
 }
-form{
-    flex-direction: column;
-}
-input{
-    margin: 0 0 20px 0;
-}
-.footer{
-    flex-direction: column;
+
+.footer {
+        
+   
+    padding: 50px 0;
+    display: grid;
+    justify-content: center;
     text-align: center;
 }
-.link{
-    ul{
-        margin-top: 20px;
-    }
+
+.footer h4 {
+    color: #fff;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 10px;
+    color: #e9e9e9;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+.social-icons li {
+    display: inline-block;
+    
+    font-size: 10px;
+}
+
+.social-icons li a {
+    color: #e9e9e9;
+    font-size: 15px;
+}
+
+
+
+.footer ul li i {
+   
+}
+
+.footer-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.footer-column {
+    padding: 0 15px;
 }
 
 }

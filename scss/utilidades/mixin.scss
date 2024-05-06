@@ -1,0 +1,28 @@
+@mixin medidas ($width, $height, ){
+
+    @media (max-width:768px){
+
+    .viewmodel-menu {
+    
+        
+        @include medidas(90%, )
+    }
+    .hud-menu {
+    
+       @include medidas(90%, )
+    }
+    .radar-item  {
+    
+        
+        @include medidas(90%, )
+    }
+       
+    }
+
+
+
+}
+
+
+
+
