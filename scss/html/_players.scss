@@ -71,6 +71,10 @@
         }
 
 .mouse-detalles {
+    h3{
+        display: flex;
+        justify-content: center;
+    }
             background-color: #ffffff;
             padding: 20px;
             border-radius: 5px;
@@ -156,7 +160,7 @@
             height: 150px;
             justify-content: center;
             align-items: center;
-            background-image: url(./background-crosshair-cs.jpg);
+            background-image: url(/scss/html/background-crosshair-cs.jpg);
             
             img{
                 display: flex;

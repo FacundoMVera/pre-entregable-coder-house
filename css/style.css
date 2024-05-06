@@ -59,6 +59,10 @@
   margin: 20px auto;
   max-width: 900px;
 }
+.mouse-detalles h3 {
+  display: flex;
+  justify-content: center;
+}
 
 .mouse-info {
   display: flex;
@@ -124,7 +128,7 @@
   height: 150px;
   justify-content: center;
   align-items: center;
-  background-image: url(./background-crosshair-cs.jpg);
+  background-image: url(/scss/html/background-crosshair-cs.jpg);
 }
 .setting-item img {
   display: flex;
