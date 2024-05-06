@@ -157,9 +157,10 @@ margin-left: 250px;
 }
 
 .popular-content{
-    display: flex;
-    justify-content: space-between;
-    margin: 50px;
+    
+    max-width: 100%;
+    margin:0px 10% 0px 10%;
+    
 }
 
 .product-content{
@@ -1251,9 +1252,7 @@ justify-content: center;
 
 
 
-.footer ul li i {
-   
-}
+
 
 .footer-columns {
     display: grid;

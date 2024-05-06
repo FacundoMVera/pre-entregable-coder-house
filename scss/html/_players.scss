@@ -130,7 +130,7 @@
         }
         .crosshair-settings {
             max-width: 900px;
-            height: 550px;
+            height: auto;
             margin: 20px auto;
             padding: 20px;
             background-color: #fff;
@@ -156,7 +156,7 @@
             height: 150px;
             justify-content: center;
             align-items: center;
-            background-image: url(/img/background-crosshair-cs.jpg);
+            background-image: url(./background-crosshair-cs.jpg);
             
             img{
                 display: flex;
@@ -721,9 +721,7 @@ input{
                 justify-content: center;
             }
         }
-        .player-bio{
-            
-        }
+       
         .mouse-informacion{
             
             display: grid;
