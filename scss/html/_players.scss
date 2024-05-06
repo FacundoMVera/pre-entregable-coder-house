@@ -419,10 +419,14 @@ input{
         height: auto;
         
     }
+    img:hover{
+        cursor: pointer;
+        background-color: $background-color-img-hover ;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        
+    }
 }
-.auris-inear{
-    margin-top: 42px;
-}
+
 
 .pc-menu {
     max-width: 100%;
@@ -448,9 +452,7 @@ input{
         border-radius: 10px;
     }
 }
-.msi-card{
-    margin-top: 35px;
-}
+
 .setup-menu {
     max-width: 100%;
     width: 900px;
@@ -473,7 +475,10 @@ input{
     img{
         background-color: $background-color-img;
         border-radius: 10px;
+        
     }
+    
+    
 }
 .monitor-settings {
     max-width: 100%;
@@ -502,6 +507,7 @@ input{
     grid-template-columns: repeat(4,1fr);
     
     
+    
 }
 
 .monitor-setting-item h3 {
@@ -525,6 +531,8 @@ input{
         border-radius: 50%;
         background-color: $background-color-img;
         }
+        
+        
 }
 .team-settings {
     max-width: 100%;
@@ -556,6 +564,11 @@ input{
         justify-content: center;
         font-size: 13px;
 
+}
+img:hover{
+    cursor: pointer;
+    background-color: $background-color-img-hover ;
+    transform: scale(1.1);
 }
 }
 

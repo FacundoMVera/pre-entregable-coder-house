@@ -352,9 +352,10 @@ input .viewmodel-info {
   max-width: 100%;
   height: auto;
 }
-
-.auris-inear {
-  margin-top: 42px;
+.skins-setting-item img:hover {
+  cursor: pointer;
+  background-color: #d8d8d8;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .pc-menu {
@@ -378,10 +379,6 @@ input .viewmodel-info {
 .pc-item img {
   background-color: #F2F4F7;
   border-radius: 10px;
-}
-
-.msi-card {
-  margin-top: 35px;
 }
 
 .setup-menu {
@@ -475,6 +472,11 @@ input .viewmodel-info {
   display: grid;
   justify-content: center;
   font-size: 13px;
+}
+.team-setting-item img:hover {
+  cursor: pointer;
+  background-color: #d8d8d8;
+  transform: scale(1.1);
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
