@@ -1357,9 +1357,6 @@ h4 {
   .slider-box {
     width: 80%;
   }
-  .header-txt {
-    display: flex;
-  }
   .header-txt h1 {
     font-size: 25px;
   }
