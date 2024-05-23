@@ -567,7 +567,7 @@ background-color: $background-color-img-hover;
         ul{
             li {
                 a:hover{
-                    color: #B1A8C7;
+                    color: $color-botones-hover;
                     
                 }
 
@@ -818,7 +818,7 @@ background-color: $background-color-img-hover;
             ul{
                 li{
                     a:hover{
-                        color: #B1A8C7;
+                        color: $color-botones-hover;
                         
                     }
                 }
@@ -1077,7 +1077,7 @@ height: auto;
         ul{
             li{
                 a:hover{
-                    color: #B1A8C7;
+                    color: $color-botones-hover;
                     
                 }
             }
