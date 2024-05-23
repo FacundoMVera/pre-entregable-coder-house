@@ -1,6 +1,7 @@
 @import "html/players";
 @import "utilidades/mixin.scss";
 @import "utilidades/variables.scss";
+
 *{  
     margin:0;
     padding:0;
@@ -536,9 +537,12 @@ background-color: $background-color-img-hover;
         justify-content: space-between;
         align-items: center;
         padding: 40px 0;
-        background-image: url(../img/gd.png);
+        
         background-repeat: no-repeat;
         background-size: cover;
+        background-color: #bec3c9;
+        background: linear-gradient(to top, #333, transparent);
+        
         
     }
     
@@ -625,36 +629,28 @@ background-color: $background-color-img-hover;
         font-size: 20px;
     }
     
-    .social-icons li a:hover {
-        color:#B1A8C7;
-    }
-    
+   
     .footer ul li i {
         margin-right: 10px;
     }
     
     .footer-columns {
+        li{
+            i{
+                color: whitesmoke;
+            }
+        }
         ul{
             h5{
                 li{
                     a{
-                        color: #fff;
+                        color: whitesmoke;
                     }
                 }
             }
         }
-        .footer-columns {
-            ul{
-                h5{
-                    li{
-                        i{
-                            color: #B1A8C7;
-                        }
-                            
-                        }
-                    }
-                }
-            }
+
+       
         
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -662,6 +658,10 @@ background-color: $background-color-img-hover;
         margin: 0 auto;
         justify-content: center;
     }
+    .social-icons li a:hover {
+        color:$color-botones-hover;
+    }
+    
     
     .footer-column {
         padding: 0 15px;

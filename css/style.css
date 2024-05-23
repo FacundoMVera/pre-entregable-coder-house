@@ -286,7 +286,6 @@ body a:hover {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: start;
-  gap: 30px;
 }
 
 .crosshair-settings {
@@ -784,12 +783,11 @@ input .viewmodel-info {
 }
 
 .team-setting-item {
-  margin: 20px auto;
   justify-content: center;
 }
 .team-setting-item img {
   max-width: 100%;
-  height: 190px;
+  width: 190px;
   border-radius: 50%;
   background-color: #F2F4F7;
 }
@@ -890,8 +888,7 @@ input .viewmodel-info {
     width: 90%;
   }
   .team-setting-item img {
-    max-width: 100%;
-    height: 200px;
+    max-width: 150px;
     height: auto;
     border-radius: 50%;
     background-color: #F2F4F7;
@@ -912,12 +909,120 @@ input .viewmodel-info {
     display: grid;
     justify-content: center;
   }
+  .radarsito {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .radarsito img {
+    width: 20px;
+    height: auto;
+    position: absolute;
+    margin-right: 110px;
+    margin-top: 10px;
+  }
+  .configmonitor {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .configmonitor img {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    margin-right: 370px;
+    margin-top: 5px;
+  }
+  .teamsito {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .teamsito img {
+    width: 20px;
+    height: auto;
+    position: absolute;
+    margin-right: 200px;
+    margin-top: 12px;
+  }
+  .compo {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .compo img {
+    width: 20px;
+    height: auto;
+    position: absolute;
+    margin-right: 220px;
+    margin-top: 12px;
+  }
+  .skinsitas {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .skinsitas img {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    margin-right: 110px;
+    margin-top: 10px;
+  }
+  .videito {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .videito img {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    margin-right: 290px;
+    margin-top: 5px;
+  }
+  .crosshairsito {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .crosshairsito img {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    margin-right: 150px;
+    margin-top: 8px;
+  }
+  .viewmodelsito {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .viewmodelsito img {
+    width: 20px;
+    height: auto;
+    position: absolute;
+    margin-right: 170px;
+    margin-top: 10px;
+  }
+  .mousito {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .mousito img {
+    width: 25px;
+    height: auto;
+    position: absolute;
+    margin-right: 100px;
+    margin-top: 2px;
+  }
 }
 @media (max-width: 768px) {
   .player-card {
     width: 90%;
     display: grid;
-    height: 60%;
+    height: auto;
     place-content: center;
   }
   .player-card .player {
@@ -927,10 +1032,6 @@ input .viewmodel-info {
     align-items: center;
     place-content: center;
     margin: 0 auto;
-  }
-  .player-info-item {
-    display: flex;
-    justify-content: center;
   }
   .player-info-row p {
     font-size: 14px;
@@ -1005,9 +1106,20 @@ input .viewmodel-info {
     place-content: center;
     align-items: center;
   }
-  .crosshair-settings {
-    max-width: 90%;
+  .mousito {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .mousito img {
+    width: 25px;
     height: auto;
+    position: absolute;
+    margin-right: 70px;
+    margin-bottom: 2px;
+  }
+  .crosshair-settings {
+    width: 90%;
   }
   .viewmodel-menu {
     width: 90%;
@@ -1176,6 +1288,7 @@ input .viewmodel-info {
     grid-template-columns: repeat(2, 1fr);
   }
   .team-setting-item img {
+    width: 140px;
     height: auto;
   }
   .team-setting-item p {
@@ -1207,6 +1320,17 @@ input .viewmodel-info {
   .contenedor-grafica h3 {
     font-size: 13px;
     justify-content: start;
+  }
+  .titulo-izquierda {
+    font-size: 15px;
+  }
+  .team-setting-item {
+    justify-content: center;
+  }
+  .team-setting-item img {
+    max-width: 120px;
+    border-radius: 50%;
+    background-color: #F2F4F7;
   }
 }
 * {
@@ -1686,9 +1810,10 @@ h4 {
   justify-content: space-between;
   align-items: center;
   padding: 40px 0;
-  background-image: url(../img/gd.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #bec3c9;
+  background: linear-gradient(to top, #333, transparent);
 }
 
 .link ul {
@@ -1757,10 +1882,6 @@ h4 {
   font-size: 20px;
 }
 
-.social-icons li a:hover {
-  color: #B1A8C7;
-}
-
 .footer ul li i {
   margin-right: 10px;
 }
@@ -1772,11 +1893,15 @@ h4 {
   margin: 0 auto;
   justify-content: center;
 }
-.footer-columns ul h5 li a {
-  color: #fff;
+.footer-columns li i {
+  color: whitesmoke;
 }
-.footer-columns .footer-columns ul h5 li i {
-  color: #B1A8C7;
+.footer-columns ul h5 li a {
+  color: whitesmoke;
+}
+
+.social-icons li a:hover {
+  color: #5c87ff;
 }
 
 .footer-column {
