@@ -572,6 +572,10 @@ input .viewmodel-info {
   font-weight: bold;
   font-size: 15px;
 }
+.pc-item img:hover {
+  cursor: pointer;
+  background-color: #d8d8d8;
+}
 
 .setup-menu {
   max-width: 100%;
@@ -597,6 +601,10 @@ input .viewmodel-info {
 .setup-item a {
   font-weight: bold;
   font-size: 15px;
+}
+.setup-item img:hover {
+  cursor: pointer;
+  background-color: #d8d8d8;
 }
 
 .monitor-settings {
@@ -1827,7 +1835,7 @@ h4 {
 }
 
 .link ul li a:hover {
-  color: #B1A8C7;
+  color: #5c87ff;
 }
 
 .textos-mapas h4 {
@@ -2019,7 +2027,7 @@ h4 {
     display: initial;
   }
   .menu .navbar ul li a:hover {
-    color: #B1A8C7;
+    color: #5c87ff;
   }
   .menu .navbar ul li {
     width: 80%;
@@ -2174,7 +2182,7 @@ h4 {
     height: auto;
   }
   .menu .navbar ul li a:hover {
-    color: #B1A8C7;
+    color: #5c87ff;
   }
   .menu .navbar ul li {
     width: 60%;

@@ -668,6 +668,8 @@ input{
     border: 1px solid #ccc;
     border-radius: 5px;
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+    
+    
 
     
     
@@ -686,6 +688,13 @@ input{
     a{
         font-weight: bold;
         font-size: 15px;
+    }
+    img:hover{
+        cursor: pointer;
+        background-color: $background-color-img-hover ;
+        
+        
+    
     }
 }
 
@@ -715,6 +724,13 @@ input{
     a{
         font-weight: bold;
         font-size: 15px;
+    }
+    img:hover{
+        cursor: pointer;
+        background-color: $background-color-img-hover ;
+        
+        
+    
     }
     
     
