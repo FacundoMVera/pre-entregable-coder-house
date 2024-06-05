@@ -1659,14 +1659,13 @@ img:hover{
 
         }
         .team-setting-item{
+            display: grid;
             grid-template-columns: repeat(2,1fr);
             
-        }
-        .team-setting-item {
-            
             img {
-                width: 140px;
+                width: 80px;
                 height: auto;
+                
                 }
                 p{
                     
